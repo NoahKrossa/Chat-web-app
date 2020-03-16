@@ -1,0 +1,30 @@
+// BASE
+@import './reset';
+
+// MAIN CONTAINER
+.main-container {
+    width: 500px;
+    margin: 1em auto;
+}
+
+// HEADER 
+.header {
+    background-color: #0088aaff;
+    padding: .5em 1em;
+}
+
+// AVATAR
+.avatar {
+    display: flex;
+    align-items: center;
+}
+.avatar__img {
+    display: block;
+    width: 40px;
+    border-radius: 10px;;
+}
+.avatar__text {
+    font-weight: 700;
+    color: #eee;
+    padding: .5em;
+}
