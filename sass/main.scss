@@ -9,7 +9,7 @@
 
 // HEADER 
 .header {
-    background-color: #0088aaff;
+    background-color: #0088aa;
     padding: .5em 1em;
 }
 
@@ -27,4 +27,66 @@
     font-weight: 700;
     color: #eee;
     padding: .5em;
+}
+
+// CHAT
+.chat {
+    padding: 1em;
+    margin-top: .3em;
+    height: 600px;
+    border: .5px solid #ddd;
+    color: #2c353d;
+    display: flex;
+    flex-direction: column;
+}
+.chat__inf {
+    color: gray;
+    align-self: flex-start;
+    font-size: 13px;
+}
+// MESSAGES
+.local-message, .external-message {
+    width: 300px;
+    font-size: 14px;
+}
+
+.local-message {
+    background-color: #d4f5f5;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    align-self: flex-end;
+}
+.external-message {
+    align-self: flex-start;
+    background-color: #444;
+    color: #eee;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+// MESSAGE FORM
+.message-form {    padding: .5em 1em;
+    display: flex
+}
+// MESSAGE INPUT
+.message-input {
+    padding: .5em;
+    outline: none;
+    width: 90%;
+    border: .5px solid #ddd;
+    &:focus {
+        border: .5px solid #0088aa;
+    }
+}
+.send-button {
+    display: block;
+    background-color: #0088aa;
+    border: none;
+    padding: .5em;
+    color: #eee;
+    font-weight: 600;
+    width: 10%;
+    cursor: pointer;
 }
