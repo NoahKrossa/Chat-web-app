@@ -12,7 +12,11 @@
     background-color: #0088aa;
     padding: .5em 1em;
 }
+.header__text {
+    font-weight: 600;
+    color: #eee;
 
+}
 // AVATAR
 .avatar {
     display: flex;
@@ -90,4 +94,35 @@
     font-weight: 600;
     width: 10%;
     cursor: pointer;
+}
+
+
+// CONTACT LIST
+.contact-list {
+    margin-top: .5em;
+    overflow-y: scroll;
+    height: 600px;
+    &::-webkit-scrollbar {
+        display: none
+    }
+}
+
+.contact__item {
+    background-color: whitesmoke;
+    padding: .5em 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: .5em;
+    cursor: pointer;
+}
+.contact__image {
+    display: block;
+    width: 50px;
+    border-radius: 10px;
+}
+.contact__name {
+    margin-left: 1em;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c353d;
 }
