@@ -1,0 +1,25 @@
+.form {
+    padding: .5em 1em;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+.label {
+    font-weight: 600;
+    padding: 10px 0;
+    color: #2c353d;
+    cursor: pointer;
+}
+.input-text {
+    padding: 10px;
+    outline: none;
+    color: #2c353d;
+    border: .5px solid #ddd;
+}
+.input-error {
+    color: #ddd;
+    background-color: rgb(252, 69, 69);
+    padding: 5px;
+}
